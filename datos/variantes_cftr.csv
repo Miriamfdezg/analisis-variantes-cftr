@@ -1,1 +1,6 @@
-
+variante,id_clinvar,cambio_adn,cambio_proteina,consecuencia_molecular,posicion_grch38,clasificacion_clinica
+F508del,7105,c.1521_1523del,p.Phe508del,Delecion_en_marco,117559591,Patogena
+G542X,7115,c.1624G>T,p.Gly542Ter,Sin_sentido,117587778,Patogena
+G551D,7120,c.1652G>A,p.Gly551Asp,Cambio_de_sentido,117587806,Patogena
+W1282X,7129,c.3846G>A,p.Trp1282Ter,Sin_sentido,117642566,Patogena
+N1303K,7136,c.3909C>G,p.Asn1303Lys,Cambio_de_sentido,117652877,Patogena
