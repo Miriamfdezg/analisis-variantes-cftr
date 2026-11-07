@@ -22,14 +22,14 @@ Objetivos específicos:
 
 Metodología
 
-El proyecto se desarrollará en las siguientes fases:
+El proyecto se ha desarrollado siguiendo las siguientes fases:
 
-1. Recopilación de información: consulta de bases de datos como NCBI, ClinVar y UniProt para obtener información del gen CFTR y sus variantes.
-2. Preparación de los datos: selección y organización de las variantes en un archivo CSV con campos identificativos y anotaciones clínicas.
-3. Procesamiento mediante Python: desarrollo de un script para leer los datos, comprobar su estructura y generar un resumen de las variantes estudiadas.
-4. Interpretación de resultados: descripción de las variantes seleccionadas y de su posible relevancia clínica a partir de las anotaciones disponibles.
+1. Recopilación de información: consulta de ClinVar, una base de datos del NCBI, para obtener información genética y clínica de cinco variantes del gen CFTR asociadas a fibrosis quística.
+2. Preparación de los datos: selección de las variantes F508del, G542X, G551D, W1282X y N1303K y organización de sus identificadores, cambios moleculares y clasificaciones clínicas en un archivo CSV.
+3. Procesamiento mediante Python: elaboración de un script para leer los datos y realizar un recuento de las variantes según su consecuencia molecular y clasificación clínica. La lectura de los datos y el recuento de consecuencias moleculares se comprobaron en Google Colab.
+4. Interpretación de resultados: identificación de una deleción dentro del marco de lectura, dos variantes sin sentido y dos variantes de cambio de sentido. Los resultados obtenidos se incorporaron a la carpeta resultados del repositorio.
 
-Las clasificaciones clínicas se recogerán de las fuentes consultadas y no se considerarán resultados de una validación experimental propia.
+Las clasificaciones clínicas utilizadas proceden de ClinVar y no constituyen una validación experimental propia. El análisis se limita a las cinco variantes seleccionadas.
 
 Estructura del repositorio
 
@@ -43,14 +43,14 @@ Estructura del repositorio
 Herramientas y recursos
 
 - Python: procesamiento y análisis básico de los datos.
-- Git y GitHub: control de versiones y organización del proyecto.
-- NCBI: información de referencia sobre el gen CFTR.
-- ClinVar: consulta de variantes y sus interpretaciones clínicas.
-- UniProt: información funcional de la proteína CFTR.
+- Google Colab: ejecución y comprobación del análisis en Python. (Debido a que en momentos no he contado con mi ordenador portatil)
+- Git y GitHub: organización del repositorio y control de versiones.
+- NCBI: acceso a recursos de información genética.
+- ClinVar: consulta de variantes genéticas y sus interpretaciones clínicas.
 
 Estado del proyecto
 
-Proyecto en desarrollo. La estructura inicial del repositorio está creada y las siguientes fases consistirán en incorporar los datos, implementar el script y documentar los resultados.
+El repositorio contiene los datos de cinco variantes del gen CFTR obtenidos de ClinVar, organizados en un archivo CSV, junto con un script de Python para procesarlos y un resumen de los resultados. Se ha comprobado la lectura de los datos y el recuento de las consecuencias moleculares. También se ha documentado la metodología empleada y las fuentes consultadas.
 
 Licencia
 
