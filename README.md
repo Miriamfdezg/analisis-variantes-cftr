@@ -1,12 +1,12 @@
-Análisis bioinformático de variantes del gen CFTR asociadas a fibrosis quística
+# Análisis bioinformático de variantes del gen CFTR asociadas a fibrosis quística
 
-Descripción del proyecto
+## Descripción del proyecto
 
 La fibrosis quística es una enfermedad genética autosómica recesiva causada por variantes patogénicas en el gen CFTR (Cystic Fibrosis Transmembrane Conductance Regulator). Este gen codifica una proteína de membrana que interviene principalmente en el transporte de iones cloruro y bicarbonato a través de las células epiteliales. Las alteraciones en su funcionamiento pueden afectar a distintos órganos, especialmente a los sistemas respiratorio y digestivo.
 
 Este proyecto tiene como finalidad desarrollar un análisis bioinformático básico de variantes del gen CFTR relacionadas con la fibrosis quística, utilizando información procedente de bases de datos públicas y herramientas de programación científica.
 
-Objetivos
+## Objetivos
 
 Objetivo general:
 
@@ -20,7 +20,7 @@ Objetivos específicos:
 4. Desarrollar un script en Python para procesar y resumir los datos.
 5. Documentar la metodología y los resultados del análisis.
 
-Metodología
+## Metodología
 
 El proyecto se ha desarrollado siguiendo las siguientes fases:
 
@@ -31,7 +31,7 @@ El proyecto se ha desarrollado siguiendo las siguientes fases:
 
 Las clasificaciones clínicas utilizadas proceden de ClinVar y no constituyen una validación experimental propia. El análisis se limita a las cinco variantes seleccionadas.
 
-Estructura del repositorio
+## Estructura del repositorio
 
 - datos/: archivos con la información de las variantes genéticas.
 - scripts/: código utilizado para procesar los datos.
@@ -40,7 +40,7 @@ Estructura del repositorio
 - README.md: presentación general del proyecto.
 - LICENSE: licencia del repositorio.
 
-Herramientas y recursos
+## Herramientas y recursos
 
 - Python: procesamiento y análisis básico de los datos.
 - Google Colab: ejecución y comprobación del análisis en Python. (Debido a que en momentos no he contado con mi ordenador portatil)
@@ -48,18 +48,26 @@ Herramientas y recursos
 - NCBI: acceso a recursos de información genética.
 - ClinVar: consulta de variantes genéticas y sus interpretaciones clínicas.
 
-Estado del proyecto
+## Estado del proyecto
 
 El repositorio contiene los datos de cinco variantes del gen CFTR obtenidos de ClinVar, organizados en un archivo CSV, junto con un script de Python para procesarlos y un resumen de los resultados. Se ha comprobado la lectura de los datos y el recuento de las consecuencias moleculares. También se ha documentado la metodología empleada y las fuentes consultadas.
 
-Licencia
+## Licencia
 
 Este proyecto se distribuye bajo la licencia MIT, incluida en el archivo LICENSE.
 
-Instrucciones de uso
+## Instrucciones de uso
 
 Para utilizar los archivos del proyecto, se puede descargar el repositorio desde GitHub mediante la opción Code y Download ZIP. En la carpeta datos se encuentra el archivo variantes_cftr.csv, que contiene la información de las cinco variantes del gen CFTR seleccionadas a partir de ClinVar.
 
 El archivo analizar_variantes.py, situado en la carpeta scripts, permite leer los datos y realizar un recuento de las variantes según su consecuencia molecular y clasificación clínica. Para ejecutarlo es necesario disponer de Python 3 y mantener la estructura original de carpetas del repositorio.
 
 El programa está preparado para generar un archivo CSV con el resumen de las consecuencias moleculares en la carpeta resultados.
+
+## Comprobación del funcionamiento
+
+Se ha comprobado el funcionamiento del repositorio utilizando comandos de Git desde el entorno de Google Colab. Mediante `git clone` se ha descargado el proyecto, con `git status` se ha verificado el estado de la rama principal y con `git log` se ha consultado el historial de commits.
+
+También se ha ejecutado el script `analizar_variantes.py` con Python, obteniendo un total de cinco variantes del gen CFTR: una deleción en marco, dos variantes sin sentido y dos de cambio de sentido. Las cinco presentan clasificación patógena según los datos recopilados de ClinVar.
+
+La ejecución ha finalizado correctamente y ha permitido comprobar el funcionamiento del análisis.
