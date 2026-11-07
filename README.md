@@ -55,3 +55,11 @@ Proyecto en desarrollo. La estructura inicial del repositorio está creada y las
 Licencia
 
 Este proyecto se distribuye bajo la licencia MIT, incluida en el archivo LICENSE.
+
+Instrucciones de uso
+
+Para utilizar los archivos del proyecto, se puede descargar el repositorio desde GitHub mediante la opción Code y Download ZIP. En la carpeta datos se encuentra el archivo variantes_cftr.csv, que contiene la información de las cinco variantes del gen CFTR seleccionadas a partir de ClinVar.
+
+El archivo analizar_variantes.py, situado en la carpeta scripts, permite leer los datos y realizar un recuento de las variantes según su consecuencia molecular y clasificación clínica. Para ejecutarlo es necesario disponer de Python 3 y mantener la estructura original de carpetas del repositorio.
+
+El programa está preparado para generar un archivo CSV con el resumen de las consecuencias moleculares en la carpeta resultados.
