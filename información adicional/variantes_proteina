@@ -1,6 +1,6 @@
-   variante,posicion_proteina,dominio,inicio_dominio,fin_dominio,efecto
-   F508del,508,NBD1,423,646,Pérdida de Phe508; altera plegamiento y estabilidad
-   G542X,542,NBD1,423,646,Pérdida del tramo 542-1480 (proteína truncada)
-   G551D,551,NBD1,423,646,Menor frecuencia de apertura del canal; sin efecto en el tráfico a la membrana
-   W1282X,1282,NBD2,1210,1443,Pérdida del tramo 1282-1480 (proteína truncada)
-   N1303K,1303,NBD2,1210,1443,Maduración defectuosa de glicanos; poca actividad del canal a baja temperatura
+variante,posicion_proteina,dominio,inicio_dominio,fin_dominio,efecto
+F508del,508,NBD1,423,646,Pérdida de Phe508; altera plegamiento y estabilidad
+G542X,542,NBD1,423,646,Pérdida del tramo 542-1480 (proteína truncada)
+G551D,551,NBD1,423,646,Menor frecuencia de apertura del canal; sin efecto en el tráfico a la membrana
+W1282X,1282,NBD2,1210,1443,Pérdida del tramo 1282-1480 (proteína truncada)
+N1303K,1303,NBD2,1210,1443,Maduración defectuosa de glicanos; poca actividad del canal a baja temperatura
