@@ -1,4 +1,4 @@
-variante,posicion_proteina,dominio,inicio_dominio,fin_dominio,efecto
+variante,posicion_proteina,dominio,inicio_dominio,fin_dominio,efecto_uniprot
 F508del,508,NBD1,423,646,Pérdida de Phe508; altera plegamiento y estabilidad
 G542X,542,NBD1,423,646,Pérdida del tramo 542-1480 (proteína truncada)
 G551D,551,NBD1,423,646,Menor frecuencia de apertura del canal; sin efecto en el tráfico a la membrana
