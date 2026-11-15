@@ -1,10 +1,10 @@
 Metodología del proyecto
 
-Para este proyecto he seleccionado cinco variantes del gen CFTR relacionadas con la fibrosis quística: F508del, G542X, G551D, W1282X y N1303K. La información se ha obtenido de ClinVar, una base de datos pública del NCBI que recoge variantes genéticas y sus interpretaciones clínicas.
+Para este proyecto se han seleccionado cinco variantes del gen CFTR relacionadas con la fibrosis quística: F508del, G542X, G551D, W1282X y N1303K. La información se ha obtenido de ClinVar, una base de datos pública del NCBI que recoge variantes genéticas y sus interpretaciones clínicas.
 
-He consultado individualmente los registros de las cinco variantes para identificar sus cambios en el ADN, las alteraciones que producen en la proteína y su clasificación clínica para fibrosis quística. Los datos seleccionados se han organizado en el archivo variantes_cftr.csv, situado en la carpeta datos del repositorio.
+Se ha realizado una consulta individual de los registros de las cinco variantes para identificar sus cambios en el ADN, las alteraciones que producen en la proteína y su clasificación clínica para fibrosis quística. Los datos seleccionados se han organizado en el archivo variantes_cftr.csv, situado en la carpeta datos del repositorio.
 
-Para procesar esta información he preparado un programa en Python que permite leer el archivo CSV y contar las variantes según su consecuencia molecular y clasificación clínica. He utilizado las bibliotecas csv y collections, que forman parte de la biblioteca estándar de Python.
+Para procesar esta información se ha creado un programa en Python que permite leer el archivo CSV y contar las variantes según su consecuencia molecular y clasificación clínica. Se han utilizado las bibliotecas csv y collections, que forman parte de la biblioteca estándar de Python.
 
 La lectura de los datos y el recuento de las consecuencias moleculares se han comprobado en Google Colab. Entre las cinco variantes seleccionadas se ha identificado una deleción dentro del marco de lectura, dos variantes sin sentido y dos de cambio de sentido. Este recuento se ha incorporado al archivo resumen_variantes.csv.
 
