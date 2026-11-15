@@ -13,12 +13,12 @@ La ficha de UniProt de CFTR (P13569) enlaza 58 estructuras del PDB: unas 35 de r
 Para cada tipo se eligió la de mejor resolución disponible entre las listadas por UniProt.
 
 ## Estructuras seleccionadas
-| Código PDB | Método | Resolución | Residuos | Título | Año | Ligandos |
+| Código PDB | Método | Resolución | Residuos |
 |---|---|---|---|---|---|---|
-| 9MXL | cryo-EM | 2.10 Å | 1-1480 | [título] | [año] | [ligandos] |
-| 7SVD | cryo-EM | 2.70 Å | 1-1480 | [título] | [año] | [ligandos] |
-| 2PZE | Rayos X | 1.70 Å | 387-646 | [título] | [año] | [ligandos] |
-| 3GD7 | Rayos X | 2.70 Å | 1193-1427 | [título] | [año] | [ligandos] |
+| 9MXL | cryo-EM | 2.10 Å | 1-1480 |
+| 7SVD | cryo-EM | 2.70 Å | 1-1480 |
+| 2PZE | Rayos X | 1.70 Å | 387-646 |
+| 3GD7 | Rayos X | 2.70 Å | 1193-1427 | 
 
 Método, resolución y residuos proceden de UniProt; título, año y ligandos, de la ficha de cada estructura en RCSB.
 
