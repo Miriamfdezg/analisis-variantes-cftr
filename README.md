@@ -88,3 +88,25 @@ Se ha comprobado el funcionamiento del repositorio utilizando comandos de Git de
 También se ha ejecutado el script `analizar_variantes.py` con Python, obteniendo un total de cinco variantes del gen CFTR: una deleción en marco, dos variantes sin sentido y dos de cambio de sentido. Las cinco presentan clasificación patógena según los datos recopilados de ClinVar.
 
 La ejecución ha finalizado correctamente y ha permitido comprobar el funcionamiento del análisis.
+
+## Organización del repositorio
+
+- datos
+    - variantes_cftr
+- documentacion
+    - metodología
+- información adicional
+    - variantes_proteina
+- resultados
+    - figuras
+        - 2PZE
+        - 3GD7
+        - 7SVD
+        - 9MXL
+        - protein_data_bank
+    - resumen variantes
+- scripts
+    - analizar_variantes
+- .gitignore
+- LICENSE
+- README
