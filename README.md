@@ -74,6 +74,13 @@ El archivo analizar_variantes.py, situado en la carpeta scripts, permite leer lo
 
 El programa está preparado para generar un archivo CSV con el resumen de las consecuencias moleculares en la carpeta resultados.
 
+## Limitaciones del estudio
+
+Este estudio presenta algunas limitaciones que deben tenerse en cuenta:
+- Se han estudiado únicamente cinco variantes del gen CFTR, los resultados obtenidos no represetan la totalidad de las variantes relacionadas con la fibrosis quísitca.
+- La información recopilada procede de bases de datos públicas, como ClinVar, que pueden sufrir actualizaciones con el tiempo.
+- El análisis realizado es descriptivo, no incluye validaciones experimentales.
+
 ## Comprobación del funcionamiento
 
 Se ha comprobado el funcionamiento del repositorio utilizando comandos de Git desde el entorno de Google Colab. Mediante `git clone` se ha descargado el proyecto, con `git status` se ha verificado el estado de la rama principal y con `git log` se ha consultado el historial de commits.
